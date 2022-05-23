@@ -156,6 +156,7 @@ ul {
     background-color: var(--backteam-color);
     border-radius: 4px;
     cursor: pointer;
+    margin-bottom: 3px;
 }
 .portfolio-btn:hover {
     color: var(--white-color);
