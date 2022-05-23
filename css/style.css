@@ -142,3 +142,46 @@ ul {
 .footer-contact.address {
     color: var(--white-color);
 }
+
+/* Portfolio css */
+
+.portfolio-btn {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--titel-color);
+    background-color: var(--backteam-color);
+    border-radius: 4px;
+    cursor: pointer;
+}
+.portfolio-btn:hover {
+    color: var(--white-color);
+    background-color: var(--hover-color);
+}
+.portfolio-item {
+    box-sizing: border-box;
+    width: 370px;
+    height: 404px;
+    border: 1px solid #EEEEEE;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+.portfolio-item:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 0px 2px 2px var(--hover-color);
+}
+.portfolio-titel {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--titel-color);
+}
+.portfolio-descrp {
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+}
