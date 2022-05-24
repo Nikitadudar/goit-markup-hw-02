@@ -21,6 +21,9 @@ ul {
     list-style: none;
     padding: 0;
 }
+:focus {
+    outline-color: var(--hover-color);
+}
 .logo {
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
